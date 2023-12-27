@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatzApp</title>
+    <!--  Fav icon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/favicon-whatzapp.ico"
+    />
+    <!-- Compiled TailwindCSS -->
+    <link rel="stylesheet" href="./assets/css/output.css" />
+  </head>
+  <body class="bg-gray-400">
+    <main class="max-w-md mx-auto">
+      <!--Header section-->
+      <section id="header" class="bg-emerald-800 text-white">
+        <!-- Header - Icons-->
+        <div class="flex justify-between items-center px-3 py-3">
+          <h2 class="font-semibold">WhatzApp</h2>
+          <div class="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="M9.5 20q3.325 0 5.663-2.337T17.5 12q0-3.325-2.337-5.663T9.5 4h-.525q-.25 0-.475.05q1.425 1.65 2.213 3.688T11.5 12q0 2.225-.788 4.263T8.5 19.95q.225.05.475.05zm0 2q-.875 0-1.75-.175T6.075 21.3q-.275-.125-.45-.375t-.175-.55q0-.225.1-.425t.3-.35q1.75-1.375 2.7-3.375T9.5 12q0-2.225-.962-4.213T5.825 4.4q-.175-.15-.275-.35t-.1-.425q0-.3.163-.55T6.05 2.7q.825-.35 1.7-.525T9.5 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T19.5 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T9.5 22m2-10"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Header - Menu -->
+        <div>
+          <ul class="flex justify-between items-center px-4 py-2">
+            <li class="flex items-center space-x-5 relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="fill-current h-7"
+              >
+                <path
+                  fill="currentColor"
+                  d="M0 18v-1.575q0-1.075 1.1-1.75T4 14q.325 0 .625.013t.575.062q-.35.525-.525 1.1t-.175 1.2V18zm6 0v-1.625q0-.8.438-1.463t1.237-1.162q.8-.5 1.913-.75T12 12.75q1.325 0 2.438.25t1.912.75q.8.5 1.225 1.163T18 16.375V18zm13.5 0v-1.625q0-.65-.162-1.225t-.488-1.075q.275-.05.563-.062T20 14q1.8 0 2.9.663t1.1 1.762V18zM4 13q-.825 0-1.412-.587T2 11q0-.85.588-1.425T4 9q.85 0 1.425.575T6 11q0 .825-.575 1.413T4 13m16 0q-.825 0-1.412-.587T18 11q0-.85.588-1.425T20 9q.85 0 1.425.575T22 11q0 .825-.575 1.413T20 13m-8-1q-1.25 0-2.125-.875T9 9q0-1.275.875-2.137T12 6q1.275 0 2.138.863T15 9q0 1.25-.862 2.125T12 12"
+                />
+              </svg>
+
+              <div class="flex space-x-2">
+                <span> <a href="./index.html">Chats</a> </span>
+                <span
+                  class="bg-white rounded-full w-6 h-6 text-emerald-700 text-center"
+                  >10
+                </span>
+              </div>
+            </li>
+            <li class="relative">
+              <a href="./updates.html">Updates</a>
+              <div class="bg-white absolute top-8 right-0 w-16 h-[4px]"></div>
+            </li>
+            <li><a href="./calls.html">Calls</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Updates section-->
+
+      <section id="updates" class="bg-white">
+        <!--Your status-->
+
+        <div id="your-status" class="px-3 py-3 flex items-center space-x-2">
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=0"
+            width="85"
+            height="85"
+            class="rounded-full border-2 border-emerald-400 border-dashed p-1"
+          />
+
+          <div>
+            <h4 class="font-semibold">Sreejith</h4>
+
+            <small class="text-gray-500">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nesciunt sint qui architecto corrupti dolorem praesentium sequi
+              illo ipsum odio.
+            </small>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!--Recent updates-->
+
+        <div id="recent-updates" class="px-3 py-3">
+          <h2>Recent Updates</h2>
+          <div class="flex items-center space-x-2 mt-3">
+            <img
+              src="https://source.unsplash.com/random/200x200?sig=1"
+              width="85"
+              height="85"
+              class="rounded-full border-2 border-emerald-400 p-1"
+            />
+
+            <div>
+              <h4 class="font-semibold">Person-1</h4>
+              <small class="text-gray-500">Today, 1:40 PM</small>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2 mt-3">
+            <img
+              src="https://source.unsplash.com/random/200x200?sig=2"
+              width="85"
+              height="85"
+              class="rounded-full border-2 border-emerald-400 border-dashed p-1"
+            />
+
+            <div>
+              <h4 class="font-semibold">Person-2</h4>
+              <small class="text-gray-500">Yesterday, 5:32 PM</small>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2 mt-3">
+            <img
+              src="https://source.unsplash.com/random/200x200?sig=3"
+              width="85"
+              height="85"
+              class="rounded-full border-2 border-emerald-400 border-dotted p-1"
+            />
+
+            <div>
+              <h4 class="font-semibold">Person-3</h4>
+              <small class="text-gray-500">09 December 2023</small>
+            </div>
+          </div>
+        </div>
+
+        <!--Viewed updates-->
+
+        <div id="viewed-updates" class="px-3 py-3">
+          <h2>Viewed Updates</h2>
+          <div class="flex items-center space-x-2 mt-3">
+            <img
+              src="https://source.unsplash.com/random/200x200?sig=1"
+              width="85"
+              height="85"
+              class="rounded-full border-2 border-emerald-400 p-1"
+            />
+
+            <div>
+              <h4 class="font-semibold">Person-4</h4>
+              <small class="text-gray-500">12 November 2023</small>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2 mt-3">
+            <img
+              src="https://source.unsplash.com/random/200x200?sig=2"
+              width="85"
+              height="85"
+              class="rounded-full border-2 border-emerald-400 border-dashed p-1"
+            />
+
+            <div>
+              <h4 class="font-semibold">Person-5</h4>
+              <small class="text-gray-500">12 October 2023</small>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2 mt-3">
+            <img
+              src="https://source.unsplash.com/random/200x200?sig=3"
+              width="85"
+              height="85"
+              class="rounded-full border-2 border-emerald-400 p-1"
+            />
+
+            <div>
+              <h4 class="font-semibold">Person-6</h4>
+              <small class="text-gray-500">04 September 2023</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div>
+            <hr class="mt-2" />
+          </div>
+
+          <div class="px-3 flex justify-between">
+            <h2 class="font-semibold">Channels</h2>
+            <span class="h-4">+</span>
+          </div>
+
+          <small class="font-light mt-3 px-3">
+            Stay updated on topics that matter to you. Tap on the + to create
+            your channel
+          </small>
+
+          <div class="p-2 mt-5">
+            <button
+              class="rounded-full bg-emerald-800 text-white px-3 py-2 mt-3 mb-2"
+            >
+              Find Channels
+            </button>
+          </div>
+
+          <!--floating button pen-->
+          <div
+            class="bg-green-100 w-10 h-10 rounded-2xl flex justify-center items-center absolute bottom-12 right-5"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="text-emerald-green-800 fill-emerald-800"
+            >
+              <path
+                d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83l3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"
+              />
+            </svg>
+          </div>
+
+          <!--floating button camera-->
+          <div
+            class="bg-emerald-800 text-white w-10 h-10 rounded-2xl flex justify-center items-center absolute bottom-1 right-5"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 0 0-5 5a5 5 0 0 0 5 5a5 5 0 0 0 5-5a5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

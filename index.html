@@ -15,204 +15,225 @@
     <link rel="stylesheet" href="./assets/css/output.css" />
   </head>
   <body class="bg-gray-400">
-    <main>
-      <section id="wrapper" class="max-w-md mx-auto">
-        <!--Header-->
+    <main class="max-w-md mx-auto">
+      <!--Header section-->
+      <section id="header" class="bg-emerald-800 text-white">
+        <!-- Header - Icons-->
+        <div class="flex justify-between items-center px-3 py-3">
+          <h2 class="font-semibold">WhatzApp</h2>
+          <div class="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14"
+              />
+            </svg>
 
-        <div id="header" class="bg-emerald-800 text-white">
-          <div class="flex justify-between items-center px-3 py-3">
-            <h2 class="font-semibold">WhatzApp</h2>
-            <div class="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="fill-current h-6"
-              >
-                <path
-                  d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14"
-                />
-              </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="M9.5 20q3.325 0 5.663-2.337T17.5 12q0-3.325-2.337-5.663T9.5 4h-.525q-.25 0-.475.05q1.425 1.65 2.213 3.688T11.5 12q0 2.225-.788 4.263T8.5 19.95q.225.05.475.05zm0 2q-.875 0-1.75-.175T6.075 21.3q-.275-.125-.45-.375t-.175-.55q0-.225.1-.425t.3-.35q1.75-1.375 2.7-3.375T9.5 12q0-2.225-.962-4.213T5.825 4.4q-.175-.15-.275-.35t-.1-.425q0-.3.163-.55T6.05 2.7q.825-.35 1.7-.525T9.5 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T19.5 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T9.5 22m2-10"
+              />
+            </svg>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="fill-current h-6"
-              >
-                <path
-                  d="M9.5 20q3.325 0 5.663-2.337T17.5 12q0-3.325-2.337-5.663T9.5 4h-.525q-.25 0-.475.05q1.425 1.65 2.213 3.688T11.5 12q0 2.225-.788 4.263T8.5 19.95q.225.05.475.05zm0 2q-.875 0-1.75-.175T6.075 21.3q-.275-.125-.45-.375t-.175-.55q0-.225.1-.425t.3-.35q1.75-1.375 2.7-3.375T9.5 12q0-2.225-.962-4.213T5.825 4.4q-.175-.15-.275-.35t-.1-.425q0-.3.163-.55T6.05 2.7q.825-.35 1.7-.525T9.5 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T19.5 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T9.5 22m2-10"
-                />
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="fill-current h-6"
-              >
-                <path
-                  d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2"
-                />
-              </svg>
-            </div>
-          </div>
-
-          <!--Menu -->
-
-          <div>
-            <ul class="flex justify-between items-center px-4 py-2">
-              <li class="flex items-center space-x-5 relative">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  class="fill-current h-7"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M0 18v-1.575q0-1.075 1.1-1.75T4 14q.325 0 .625.013t.575.062q-.35.525-.525 1.1t-.175 1.2V18zm6 0v-1.625q0-.8.438-1.463t1.237-1.162q.8-.5 1.913-.75T12 12.75q1.325 0 2.438.25t1.912.75q.8.5 1.225 1.163T18 16.375V18zm13.5 0v-1.625q0-.65-.162-1.225t-.488-1.075q.275-.05.563-.062T20 14q1.8 0 2.9.663t1.1 1.762V18zM4 13q-.825 0-1.412-.587T2 11q0-.85.588-1.425T4 9q.85 0 1.425.575T6 11q0 .825-.575 1.413T4 13m16 0q-.825 0-1.412-.587T18 11q0-.85.588-1.425T20 9q.85 0 1.425.575T22 11q0 .825-.575 1.413T20 13m-8-1q-1.25 0-2.125-.875T9 9q0-1.275.875-2.137T12 6q1.275 0 2.138.863T15 9q0 1.25-.862 2.125T12 12"
-                  />
-                </svg>
-
-                <div class="flex space-x-2">
-                  <span> <a href="./index.html">Chats</a> </span>
-                  <span
-                    class="bg-white rounded-full w-6 h-6 text-emerald-700 text-center"
-                    >10
-                  </span>
-                </div>
-
-                <div class="bg-white absolute top-8 left-9 w-20 h-[4px]"></div>
-              </li>
-              <li><a href="./status.html">Updates</a></li>
-              <li><a href="./calls.html">Calls</a></li>
-            </ul>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              class="fill-current h-6"
+            >
+              <path
+                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2"
+              />
+            </svg>
           </div>
         </div>
 
-        <!--Chat-->
-
-        <div id="chat" class="bg-white">
-          <!--Sreejith Card-->
-          <div class="flex px-3 py-3 space-x-4 items-center">
-            <!-- <img
-              src="https://ui-avatars.com/api/?name=Sreejith
-          Nair&background=random&color=fff"
-              alt="Sreejith"
-              class="rounded-full"
-            /> -->
-
-            <img
-              src="https://source.unsplash.com/random/200x200?sig=1"
-              width="70"
-              height="70"
-              class="rounded-full"
-            />
-
-            <div class="flex-1">
-              <h4 class="font-semibold">Sreejith Nair</h4>
-              <p class="text-gray-500">
-                Anu, You've to do the hardwork to compete against others. For
-                that you have wake up early in the morning. .Also I agree to
-                teach Athul a new devotional song.
-              </p>
-            </div>
-
-            <div class="flex flex-col items-center">
-              <p class="text-green-500">05:03PM</p>
-              <p
-                class="rounded-full bg-green-500 w-6 h-6 text-white text-center"
+        <!-- Header - Menu -->
+        <div>
+          <ul class="flex justify-between items-center px-4 py-2">
+            <li class="flex items-center space-x-5 relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="fill-current h-7"
               >
-                2
-              </p>
-            </div>
+                <path
+                  fill="currentColor"
+                  d="M0 18v-1.575q0-1.075 1.1-1.75T4 14q.325 0 .625.013t.575.062q-.35.525-.525 1.1t-.175 1.2V18zm6 0v-1.625q0-.8.438-1.463t1.237-1.162q.8-.5 1.913-.75T12 12.75q1.325 0 2.438.25t1.912.75q.8.5 1.225 1.163T18 16.375V18zm13.5 0v-1.625q0-.65-.162-1.225t-.488-1.075q.275-.05.563-.062T20 14q1.8 0 2.9.663t1.1 1.762V18zM4 13q-.825 0-1.412-.587T2 11q0-.85.588-1.425T4 9q.85 0 1.425.575T6 11q0 .825-.575 1.413T4 13m16 0q-.825 0-1.412-.587T18 11q0-.85.588-1.425T20 9q.85 0 1.425.575T22 11q0 .825-.575 1.413T20 13m-8-1q-1.25 0-2.125-.875T9 9q0-1.275.875-2.137T12 6q1.275 0 2.138.863T15 9q0 1.25-.862 2.125T12 12"
+                />
+              </svg>
+
+              <div class="flex space-x-2">
+                <span> <a href="./index.html">Chats</a> </span>
+                <span
+                  class="bg-white rounded-full w-6 h-6 text-emerald-700 text-center"
+                  >10
+                </span>
+              </div>
+
+              <div class="bg-white absolute top-8 left-9 w-20 h-[4px]"></div>
+            </li>
+            <li><a href="./updates.html">Updates</a></li>
+            <li><a href="./calls.html">Calls</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Chat section-->
+      <section id="chat" class="bg-white">
+        <!--chat1-->
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:bg-slate-300 cursor-pointer"
+        >
+          <!-- Avatar Image ==> https://ui-avatars.com/api/?name=Sreejith
+          Nair&background=random&color=fff" -->
+
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            width="85"
+            height="85"
+            class="rounded-full border-2 border-emerald-400 p-1"
+          />
+
+          <div class="flex-1">
+            <h4 class="font-semibold">Sreejith</h4>
+
+            <p class="text-gray-500 font-light">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
+              commodi.
+            </p>
           </div>
-          <!--Anu Card-->
-          <div class="flex px-3 py-3 space-x-4 items-center">
-            <img
-              src="https://source.unsplash.com/random/200x200?sig=2"
-              width="70"
-              height="70"
-              class="rounded-full"
-            />
 
-            <div class="flex-1">
-              <h4 class="font-semibold">Anu Sreejith</h4>
-              <p class="text-gray-500">
-                Chetta, I'm planning to start my web project tomorrow. Lets
-                chill out by watching movies.I'm planning to start my daily
-                diet.. Do you like to join with me?
-              </p>
-            </div>
-
-            <div class="flex flex-col items-center">
-              <p class="text-green-500">01:54PM</p>
-              <p
-                class="rounded-full bg-green-500 w-6 h-6 text-white text-center"
+          <div class="flex flex-col items-center">
+            <p class="text-green-500">05:03PM</p>
+            <p class="rounded-full bg-green-500 w-6 h-6 text-white text-center">
+              2
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="h-6 fill-blue-400"
               >
-                2
-              </p>
-            </div>
+                <path
+                  d="m2.394 13.742l4.743 3.62l7.616-8.704l-1.506-1.316l-6.384 7.296l-3.257-2.486zm19.359-5.084l-1.506-1.316l-6.369 7.279l-.753-.602l-1.25 1.562l2.247 1.798z"
+                />
+              </svg>
+            </p>
           </div>
-          <!--Athul Card-->
-          <div class="flex px-3 py-3 space-x-4 items-center">
-            <img
-              src="https://source.unsplash.com/random/200x200?sig=3"
-              width="70"
-              height="70"
-              class="rounded-full"
+        </div>
+        <!--chat2-->
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:bg-slate-300 cursor-pointer"
+        >
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=2"
+            width="85"
+            height="85"
+            class="rounded-full border-2 border-emerald-400 p-1"
+          />
+
+          <div class="flex-1">
+            <h4 class="font-semibold">Anu</h4>
+            <p class="text-gray-500 font-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, aspernatur?
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <p class="text-green-500">01:54PM</p>
+            <p class="rounded-full bg-green-500 w-6 h-6 text-white text-center">
+              2
+            </p>
+          </div>
+        </div>
+        <!--chat3-->
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:bg-slate-300 cursor-pointer"
+        >
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=3"
+            width="85"
+            height="85"
+            class="rounded-full border-2 border-emerald-400 p-1"
+          />
+
+          <div class="flex-1">
+            <h4 class="font-semibold">Athul</h4>
+            <p class="text-gray-500 font-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis,
+              animi!
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <p class="text-green-500">08:23PM</p>
+            <p class="rounded-full bg-green-500 w-6 h-6 text-white text-center">
+              2
+            </p>
+          </div>
+        </div>
+        <!--chat4-->
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:bg-slate-300 cursor-pointer"
+        >
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=4"
+            width="85"
+            height="85"
+            class="rounded-full border-2 border-emerald-400 p-1"
+          />
+
+          <div class="flex-1">
+            <h4 class="font-semibold">Ishaan</h4>
+            <p class="text-gray-500 font-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto, veniam?
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <p class="text-green-500">02:45PM</p>
+            <p class="rounded-full bg-green-500 w-6 h-6 text-white text-center">
+              2
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Floating button -->
+      <section class="relative">
+        <div
+          class="bg-emerald-800 w-12 h-12 rounded-full flex items-center justify-center absolute bottom-12 right-12 cursor-pointer shadow-xl shadow-gray-400"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            class="text-white fill-current"
+          >
+            <path
+              d="M20 20H7a2 2 0 0 1-2-2V8.94l-2.77-3.3C2.09 5.47 2 5.24 2 5a1 1 0 0 1 1-1h17a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2M8.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-10m0 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-10m0 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-5Z"
             />
-
-            <div class="flex-1">
-              <h4 class="font-semibold">Athul Sreejith</h4>
-              <p class="text-gray-500">
-                Dad, I've finished practicing all swaras.Can you please teach me
-                a new devotional song? Amma why are you acting lazy.If you want
-                to have a new job you have to do hardwork. Amma I am sorry if I
-                hurt your feelings.
-              </p>
-            </div>
-
-            <div class="flex flex-col items-center">
-              <p class="text-green-500">08:23PM</p>
-              <p
-                class="rounded-full bg-green-500 w-6 h-6 text-white text-center"
-              >
-                2
-              </p>
-            </div>
-          </div>
-          <!--Ishaan Card-->
-          <div class="flex px-3 py-3 space-x-4 items-center">
-            <img
-              src="https://source.unsplash.com/random/200x200?sig=4"
-              width="70"
-              height="70"
-              class="rounded-full"
-            />
-
-            <div class="flex-1">
-              <h4 class="font-semibold">Ishaan Krishna</h4>
-              <p class="text-gray-500">
-                Dad, I've finished all the math home work.Is the're anything
-                else to do?
-              </p>
-            </div>
-
-            <div class="flex flex-col items-center">
-              <p class="text-green-500">02:45PM</p>
-              <p
-                class="rounded-full bg-green-500 w-6 h-6 text-white text-center"
-              >
-                2
-              </p>
-            </div>
-          </div>
+          </svg>
         </div>
       </section>
     </main>
