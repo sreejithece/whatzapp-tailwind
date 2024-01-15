@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhatzApp</title>
+  <!--  Fav icon -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon-whatzapp.ico" />
+  <!-- Compiled TailwindCSS -->
+  <link rel="stylesheet" href="./assets/css/output.css" />
+</head>
+
+<body style="background-image: url(assets/images/background.jpg)">
+  <main class="max-w-md mx-auto">
+    <!--Header section-->
+    <section id="header" class="bg-emerald-800 text-white">
+
+      <div class="flex space-x-4 px-4 py-3 font-semibold">
+        <!-- Back btn -->
+        <a href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 14 14">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              d="M13.5 7H.5M4 3.5L.5 7L4 10.5" />
+          </svg>
+        </a>
+
+        <h1 class="flex-1">Settings</h1>
+
+        <!-- Search -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="fill-current h-6">
+          <path
+            d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14" />
+        </svg>
+
+      </div>
+    </section>
+
+    <!--Groups section-->
+
+    <section id="settings" class="bg-white">
+      <!-- Profile Header -->
+      <div class="flex space-x-2 px-3 py-2">
+
+        <div>
+          <img src="https://source.unsplash.com/random/200x200?sig=2" width="120" height="120"
+            class="rounded-full border-2 border-emerald-400 p-1" />
+        </div>
+
+        <div class="flex-col">
+          <h1 class="font-semibold">Sreejith Nair</h1>
+          <p class="text-sm">🙌, Compassianate ✌️, Willing to go extra miile 😎</p>
+        </div>
+
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+            class="h-6 fill-current text-emerald-800">
+            <path d="M1 1h10v10H1V1zm2 2v6h6V3H3z" />
+            <path fill-rule="evenodd" d="M5 5h2v2H5z" />
+            <path d="M13 1h10v10H13V1zm2 2v6h6V3h-6z" />
+            <path fill-rule="evenodd" d="M17 5h2v2h-2z" />
+            <path d="M1 13h10v10H1V13zm2 2v6h6v-6H3z" />
+            <path fill-rule="evenodd" d="M5 17h2v2H5z" />
+            <path d="M23 19h-4v4h-6V13h1h-1v6h2v2h2v-6h-2v-2h-1h3v2h2v2h2v-4h2v6zm0 2v2h-2v-2h2z" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Profile Settings -->
+      <div class="py-2">
+        <ul>
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!--account settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M22 18v4h-4v-3h-3v-3h-3l-2.26-2.26c-.55.17-1.13.26-1.74.26a6 6 0 0 1-6-6a6 6 0 0 1 6-6a6 6 0 0 1 6 6c0 .61-.09 1.19-.26 1.74L22 18M7 5a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2Z" />
+              </svg>
+
+              <div class="flex-col">
+                <h4>Account</h4>
+                <small class="text-gray-600">Security notifications, change number</small>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!--privacy settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns=" http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M12 17a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2h1m-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3Z" />
+              </svg>
+
+              <div class="flex-col">
+                <h4>Privacy</h4>
+                <small class="text-gray-600">Block contacts, disappearing messages</small>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!--avatar settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns=" http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M21.97 13.52v-.04C23.21 12.38 24 10.78 24 9c0-3.31-2.69-6-6-6c-.26 0-.52.02-.78.06a5.98 5.98 0 0 0-10.44 0C6.52 3.02 6.26 3 6 3C2.69 3 0 5.69 0 9c0 1.78.79 3.38 2.02 4.48v.04A6.008 6.008 0 0 0 0 18c0 3.31 2.69 6 6 6c1.39 0 2.67-.48 3.69-1.28c.74.18 1.51.28 2.31.28s1.57-.1 2.31-.28c1.02.8 2.3 1.28 3.69 1.28c3.31 0 6-2.69 6-6c0-1.78-.79-3.38-2.03-4.48zM12 21c-4.41 0-8-3.59-8-8c0-3.72 2.56-6.85 6-7.74v.05c0 3.34 2.72 6.06 6.06 6.06c1.26 0 2.45-.39 3.45-1.09c.31.86.49 1.77.49 2.72c0 4.41-3.59 8-8 8z" />
+                <circle cx="9" cy="14" r="1.25" />
+                <circle cx="15" cy="14" r="1.25" />
+              </svg>
+
+              <div class="flex-col">
+                <h4>Avatar</h4>
+                <small class="text-gray-600">Create, edit, profile photo</small>
+              </div>
+            </div>
+          </li>
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!--chat settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z" />
+              </svg>
+
+              <div class="flex-col">
+                <h4>Chats</h4>
+                <small class="text-gray-600">Themes, wallpaper, chat history</small>
+              </div>
+            </div>
+          </li>
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!--notification settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 0 0 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" />
+              </svg>
+
+              <div class="flex-col">
+                <h4>Notifications</h4>
+                <small class="text-gray-600">Message, group & call tones</small>
+              </div>
+            </div>
+          </li>
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!-- storage  settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92c0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07c0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7c0-3.53 2.61-6.43 6-6.92V2.05c-5.06.5-9 4.76-9 9.95c0 5.52 4.47 10 9.99 10c3.31 0 6.24-1.61 8.06-4.09l-2.6-1.53A6.95 6.95 0 0 1 12 19z" />
+              </svg>
+
+              <div class="flex-col">
+                <h4>Storage & data</h4>
+                <small class="text-gray-600">Network usage, auto download</small>
+              </div>
+            </div>
+          </li>
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!-- App  settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="26"
+                height="26" viewBox="0 0 256 256" class="fill-slate-600">
+                <path
+                  d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20Zm83.13 96h-31.57a155.5 155.5 0 0 0-19.51-65.63A84.23 84.23 0 0 1 211.13 116Zm-110.62 24h55c-2.25 26.69-12 51.46-27.49 69.85c-15.56-18.39-25.26-43.16-27.51-69.85Zm0-24c2.25-26.69 11.95-51.46 27.49-69.85c15.54 18.39 25.24 43.16 27.49 69.85ZM96 50.37A155.5 155.5 0 0 0 76.44 116H44.87A84.23 84.23 0 0 1 96 50.37ZM44.87 140h31.57A155.5 155.5 0 0 0 96 205.63A84.23 84.23 0 0 1 44.87 140Zm115.18 65.63A155.5 155.5 0 0 0 179.56 140h31.57a84.23 84.23 0 0 1-51.08 65.63Z" />
+              </svg>
+              <div class="flex-col">
+                <h4>App Language</h4>
+                <small class="text-gray-600">English (device's language)</small>
+              </div>
+            </div>
+          </li>
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!-- Help  settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="26"
+                height="26" viewBox="0 0 256 256" class="fill-slate-600">
+                <path
+                  d="M144 180a16 16 0 1 1-16-16a16 16 0 0 1 16 16Zm92-52A108 108 0 1 1 128 20a108.12 108.12 0 0 1 108 108Zm-24 0a84 84 0 1 0-84 84a84.09 84.09 0 0 0 84-84Zm-84-64c-24.26 0-44 17.94-44 40v4a12 12 0 0 0 24 0v-4c0-8.82 9-16 20-16s20 7.18 20 16s-9 16-20 16a12 12 0 0 0-12 12v8a12 12 0 0 0 23.73 2.56C158.31 137.88 172 122.37 172 104c0-22.06-19.74-40-44-40Z" />
+              </svg>
+              <div class="flex-col">
+                <h4>Help</h4>
+                <small class="text-gray-600">Help center, contact us, privacy policy</small>
+              </div>
+            </div>
+          </li>
+
+          <li class="cursor-pointer">
+            <div class="flex space-x-6  hover:bg-slate-200 px-5 py-8">
+              <!-- invite  settings-->
+              <svg class="w-[40px] h-[40px] bg-white rounded-full p-2" xmlns="http://www.w3.org/2000/svg" width="23"
+                height="23" viewBox="0 0 24 24" class="fill-slate-600">
+                <path
+                  d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05c1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+              </svg>
+              <div class="flex-col">
+                <h4>Invite a friend</h4>
+                <small class="text-gray-600">Invite your friends in WeChat</small>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
